@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2023-12-10)
+
+
+### Features
+
+* Add combinedkey to payload ([6822b29](https://github.com/olavurellefsen/flowcore-nodejs-typescript-transformer-bfo-opendoor/commit/6822b29f7a65b7d2845b8ffde443b5d3c47b63b6))
+
 ## [2.0.0](https://github.com/flowcore-io/nodejs-typescript-transformer-example/compare/v1.3.1...v2.0.0) (2023-10-24)
 
 
