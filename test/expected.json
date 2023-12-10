@@ -1,24 +1,28 @@
 [
   {
     "input": {
-      "hello": "world",
-      "bar": "baz"
+      "clerkId": "user_abc123",
+      "doorNo": "24"
     },
     "output": {
       "eventid": ":uuid:",
       "validtime": ":date:",
-      "hello": "world",
-      "bar": "baz"
+      "clerkId": "user_abc123",
+      "doorNo": "24",
+      "combinedkey": "user_abc123_24"
     }
   },
   {
     "input": {
-      "foo": "bar"
+      "clerkId": "user_def123",
+      "doorNo": "23"
     },
     "output": {
       "eventid": ":uuid:",
       "validtime": ":date:",
-      "foo": "bar"
+      "clerkId": "user_def123",
+      "doorNo": "23",
+      "combinedkey": "user_def123_23"
     }
   }
 ]

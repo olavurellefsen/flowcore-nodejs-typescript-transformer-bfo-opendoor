@@ -12,9 +12,11 @@ interface Input<T = any> {
 
 export default async function (input: Input) {
   console.info(`Received event ${input.eventId}, with payload ${JSON.stringify(input.payload)} and valid time ${input.validTime}`);
+  const combinedkey = input.payload.clerkId + "_" + input.payload.doorNo
   return {
     eventid: input.eventId,
     validtime: input.validTime,
+    combinedkey,
     ...input.payload,
   };
 }
