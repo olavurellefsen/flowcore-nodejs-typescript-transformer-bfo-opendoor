@@ -18,7 +18,7 @@ app.get("/health", async (req: Request, res: Response): Promise<Response> => {
 app.post("/transform", async (req: Request, res: Response): Promise<Response> => {
   const { eventId, validTime, payload } = req.body;
 
-  return res.send(await transform({
+  return res.set("x-flowcore-event-time", validTime).send(await transform({
     eventId,
     validTime,
     payload,
