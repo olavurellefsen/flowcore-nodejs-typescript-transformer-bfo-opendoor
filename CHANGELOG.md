@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/olavurellefsen/flowcore-nodejs-typescript-transformer-bfo-opendoor/compare/v1.0.0...v1.1.0) (2023-12-11)
+
+
+### Features
+
+* Set event-time to validTime ([fa9388b](https://github.com/olavurellefsen/flowcore-nodejs-typescript-transformer-bfo-opendoor/commit/fa9388b70d8713f3d2472c2540fade8dbcffde90))
+
 ## 1.0.0 (2023-12-10)
 
 
